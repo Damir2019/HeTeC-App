@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94780C9323C63B9900232FC0 /* BillsTypeCellItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94780C9123C63B9900232FC0 /* BillsTypeCellItem.swift */; };
+		94780C9423C63B9900232FC0 /* BillsTypeCellItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94780C9223C63B9900232FC0 /* BillsTypeCellItem.xib */; };
+		94780C9623C6663100232FC0 /* ChooseABillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94780C9523C6663100232FC0 /* ChooseABillViewController.swift */; };
+		94780CC023C788C300232FC0 /* BillTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94780CBE23C788C300232FC0 /* BillTableCell.swift */; };
+		94780CC123C788C300232FC0 /* BillTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94780CBF23C788C300232FC0 /* BillTableCell.xib */; };
+		94780CC323C796E400232FC0 /* BillsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94780CC223C796E400232FC0 /* BillsListViewController.swift */; };
+		94C1E9D223B49CF100F25071 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C1E9D123B49CF100F25071 /* LoginViewController.swift */; };
+		94C1E9D423B4A0C900F25071 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C1E9D323B4A0C900F25071 /* SignInViewController.swift */; };
+		94C4B96D23B90ADB0086F61D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C4B96C23B90ADB0086F61D /* ProfileViewController.swift */; };
+		94C4B99323BA95BC0086F61D /* Bill+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C4B99123BA95BC0086F61D /* Bill+CoreDataClass.swift */; };
+		94C4B99423BA95BC0086F61D /* Bill+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C4B99223BA95BC0086F61D /* Bill+CoreDataProperties.swift */; };
+		94C4B99623BE871B0086F61D /* ProfileSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C4B99523BE871B0086F61D /* ProfileSettingsViewController.swift */; };
+		94C4B99823BE872B0086F61D /* HouseSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C4B99723BE872B0086F61D /* HouseSettingsViewController.swift */; };
+		94C803C123AB5FE50002D407 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C803C023AB5FE50002D407 /* AppDelegate.swift */; };
+		94C803C323AB5FE50002D407 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C803C223AB5FE50002D407 /* SceneDelegate.swift */; };
+		94C803C823AB5FE50002D407 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94C803C623AB5FE50002D407 /* Main.storyboard */; };
+		94C803CB23AB5FE50002D407 /* HeTeC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 94C803C923AB5FE50002D407 /* HeTeC.xcdatamodeld */; };
+		94C803CD23AB5FE70002D407 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94C803CC23AB5FE70002D407 /* Assets.xcassets */; };
+		94C803D023AB5FE70002D407 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94C803CE23AB5FE70002D407 /* LaunchScreen.storyboard */; };
+		94C8040A23ABB9420002D407 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C8040923ABB9420002D407 /* HomeViewController.swift */; };
+		94C8041023ABBFA20002D407 /* StringsCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C8040F23ABBFA20002D407 /* StringsCollection.swift */; };
+		94C8041423AFCFD70002D407 /* HomePageCellItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C8041223AFCFD70002D407 /* HomePageCellItem.swift */; };
+		94C8041523AFCFD70002D407 /* HomePageCellItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94C8041323AFCFD70002D407 /* HomePageCellItem.xib */; };
+		94C8041723AFFA870002D407 /* NewBillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C8041623AFFA870002D407 /* NewBillViewController.swift */; };
+		94C8041923AFFAA20002D407 /* BillsTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C8041823AFFAA20002D407 /* BillsTypeViewController.swift */; };
+		94C8041B23AFFABB0002D407 /* StatisticViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C8041A23AFFABB0002D407 /* StatisticViewController.swift */; };
+		94D78DE423B4A34300F06B90 /* UserManaging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D78DE323B4A34300F06B90 /* UserManaging.swift */; };
+		94D78DF723B4B41F00F06B90 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D78DF623B4B41F00F06B90 /* CoreDataStack.swift */; };
+		94D78DF923B4B51500F06B90 /* DAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D78DF823B4B51500F06B90 /* DAO.swift */; };
+		94D78E0C23B4E54600F06B90 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D78E0A23B4E54600F06B90 /* User+CoreDataClass.swift */; };
+		94D78E0D23B4E54600F06B90 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D78E0B23B4E54600F06B90 /* User+CoreDataProperties.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		94780C9123C63B9900232FC0 /* BillsTypeCellItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillsTypeCellItem.swift; sourceTree = "<group>"; };
+		94780C9223C63B9900232FC0 /* BillsTypeCellItem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BillsTypeCellItem.xib; sourceTree = "<group>"; };
+		94780C9523C6663100232FC0 /* ChooseABillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseABillViewController.swift; sourceTree = "<group>"; };
+		94780CBE23C788C300232FC0 /* BillTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillTableCell.swift; sourceTree = "<group>"; };
+		94780CBF23C788C300232FC0 /* BillTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BillTableCell.xib; sourceTree = "<group>"; };
+		94780CC223C796E400232FC0 /* BillsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillsListViewController.swift; sourceTree = "<group>"; };
+		94C1E9D123B49CF100F25071 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		94C1E9D323B4A0C900F25071 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		94C4B96C23B90ADB0086F61D /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		94C4B99123BA95BC0086F61D /* Bill+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bill+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		94C4B99223BA95BC0086F61D /* Bill+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bill+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		94C4B99523BE871B0086F61D /* ProfileSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSettingsViewController.swift; sourceTree = "<group>"; };
+		94C4B99723BE872B0086F61D /* HouseSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseSettingsViewController.swift; sourceTree = "<group>"; };
+		94C803BD23AB5FE50002D407 /* HeTeC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeTeC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94C803C023AB5FE50002D407 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		94C803C223AB5FE50002D407 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		94C803C723AB5FE50002D407 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94C803CA23AB5FE50002D407 /* HeTeC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HeTeC.xcdatamodel; sourceTree = "<group>"; };
+		94C803CC23AB5FE70002D407 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94C803CF23AB5FE70002D407 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		94C803D123AB5FE70002D407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94C8040923ABB9420002D407 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		94C8040F23ABBFA20002D407 /* StringsCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringsCollection.swift; sourceTree = "<group>"; };
+		94C8041223AFCFD70002D407 /* HomePageCellItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageCellItem.swift; sourceTree = "<group>"; };
+		94C8041323AFCFD70002D407 /* HomePageCellItem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomePageCellItem.xib; sourceTree = "<group>"; };
+		94C8041623AFFA870002D407 /* NewBillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBillViewController.swift; sourceTree = "<group>"; };
+		94C8041823AFFAA20002D407 /* BillsTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillsTypeViewController.swift; sourceTree = "<group>"; };
+		94C8041A23AFFABB0002D407 /* StatisticViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticViewController.swift; sourceTree = "<group>"; };
+		94D78DE323B4A34300F06B90 /* UserManaging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManaging.swift; sourceTree = "<group>"; };
+		94D78DF623B4B41F00F06B90 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		94D78DF823B4B51500F06B90 /* DAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAO.swift; sourceTree = "<group>"; };
+		94D78E0A23B4E54600F06B90 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		94D78E0B23B4E54600F06B90 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94C803BA23AB5FE50002D407 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94C803B423AB5FE50002D407 = {
+			isa = PBXGroup;
+			children = (
+				94C803BF23AB5FE50002D407 /* HeTeC */,
+				94C803BE23AB5FE50002D407 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94C803BE23AB5FE50002D407 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94C803BD23AB5FE50002D407 /* HeTeC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94C803BF23AB5FE50002D407 /* HeTeC */ = {
+			isa = PBXGroup;
+			children = (
+				94C803C023AB5FE50002D407 /* AppDelegate.swift */,
+				94C803C223AB5FE50002D407 /* SceneDelegate.swift */,
+				94D78DF523B4B40500F06B90 /* Data */,
+				94C8041123AFCF5B0002D407 /* CellItems */,
+				94C803D923AB83AE0002D407 /* Model */,
+				94C803D823AB839F0002D407 /* Controller */,
+				94C803D723AB83950002D407 /* View */,
+				94C803CC23AB5FE70002D407 /* Assets.xcassets */,
+				94C803CE23AB5FE70002D407 /* LaunchScreen.storyboard */,
+				94C803D123AB5FE70002D407 /* Info.plist */,
+				94C803C923AB5FE50002D407 /* HeTeC.xcdatamodeld */,
+			);
+			path = HeTeC;
+			sourceTree = "<group>";
+		};
+		94C803D723AB83950002D407 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				94C803C623AB5FE50002D407 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		94C803D823AB839F0002D407 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				94C1E9D123B49CF100F25071 /* LoginViewController.swift */,
+				94C1E9D323B4A0C900F25071 /* SignInViewController.swift */,
+				94C8040923ABB9420002D407 /* HomeViewController.swift */,
+				94C8041623AFFA870002D407 /* NewBillViewController.swift */,
+				94C8041823AFFAA20002D407 /* BillsTypeViewController.swift */,
+				94780C9523C6663100232FC0 /* ChooseABillViewController.swift */,
+				94780CC223C796E400232FC0 /* BillsListViewController.swift */,
+				94C8041A23AFFABB0002D407 /* StatisticViewController.swift */,
+				94C4B96C23B90ADB0086F61D /* ProfileViewController.swift */,
+				94C4B99523BE871B0086F61D /* ProfileSettingsViewController.swift */,
+				94C4B99723BE872B0086F61D /* HouseSettingsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		94C803D923AB83AE0002D407 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				94C4B99123BA95BC0086F61D /* Bill+CoreDataClass.swift */,
+				94C4B99223BA95BC0086F61D /* Bill+CoreDataProperties.swift */,
+				94D78E0A23B4E54600F06B90 /* User+CoreDataClass.swift */,
+				94D78E0B23B4E54600F06B90 /* User+CoreDataProperties.swift */,
+				94D78DE323B4A34300F06B90 /* UserManaging.swift */,
+				94C8040F23ABBFA20002D407 /* StringsCollection.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		94C8041123AFCF5B0002D407 /* CellItems */ = {
+			isa = PBXGroup;
+			children = (
+				94C8041223AFCFD70002D407 /* HomePageCellItem.swift */,
+				94C8041323AFCFD70002D407 /* HomePageCellItem.xib */,
+				94780C9123C63B9900232FC0 /* BillsTypeCellItem.swift */,
+				94780C9223C63B9900232FC0 /* BillsTypeCellItem.xib */,
+				94780CBE23C788C300232FC0 /* BillTableCell.swift */,
+				94780CBF23C788C300232FC0 /* BillTableCell.xib */,
+			);
+			path = CellItems;
+			sourceTree = "<group>";
+		};
+		94D78DF523B4B40500F06B90 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				94D78DF623B4B41F00F06B90 /* CoreDataStack.swift */,
+				94D78DF823B4B51500F06B90 /* DAO.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94C803BC23AB5FE50002D407 /* HeTeC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94C803D423AB5FE70002D407 /* Build configuration list for PBXNativeTarget "HeTeC" */;
+			buildPhases = (
+				94C803B923AB5FE50002D407 /* Sources */,
+				94C803BA23AB5FE50002D407 /* Frameworks */,
+				94C803BB23AB5FE50002D407 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeTeC;
+			productName = HeTeC;
+			productReference = 94C803BD23AB5FE50002D407 /* HeTeC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94C803B523AB5FE50002D407 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "damir hodez";
+				TargetAttributes = {
+					94C803BC23AB5FE50002D407 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 94C803B823AB5FE50002D407 /* Build configuration list for PBXProject "HeTeC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94C803B423AB5FE50002D407;
+			productRefGroup = 94C803BE23AB5FE50002D407 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94C803BC23AB5FE50002D407 /* HeTeC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94C803BB23AB5FE50002D407 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C8041523AFCFD70002D407 /* HomePageCellItem.xib in Resources */,
+				94780C9423C63B9900232FC0 /* BillsTypeCellItem.xib in Resources */,
+				94C803D023AB5FE70002D407 /* LaunchScreen.storyboard in Resources */,
+				94C803CD23AB5FE70002D407 /* Assets.xcassets in Resources */,
+				94C803C823AB5FE50002D407 /* Main.storyboard in Resources */,
+				94780CC123C788C300232FC0 /* BillTableCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94C803B923AB5FE50002D407 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94780CC323C796E400232FC0 /* BillsListViewController.swift in Sources */,
+				94C1E9D223B49CF100F25071 /* LoginViewController.swift in Sources */,
+				94780CC023C788C300232FC0 /* BillTableCell.swift in Sources */,
+				94C803C123AB5FE50002D407 /* AppDelegate.swift in Sources */,
+				94C4B99423BA95BC0086F61D /* Bill+CoreDataProperties.swift in Sources */,
+				94C8041423AFCFD70002D407 /* HomePageCellItem.swift in Sources */,
+				94D78DF923B4B51500F06B90 /* DAO.swift in Sources */,
+				94C8041B23AFFABB0002D407 /* StatisticViewController.swift in Sources */,
+				94C1E9D423B4A0C900F25071 /* SignInViewController.swift in Sources */,
+				94C4B99323BA95BC0086F61D /* Bill+CoreDataClass.swift in Sources */,
+				94C4B99623BE871B0086F61D /* ProfileSettingsViewController.swift in Sources */,
+				94D78DF723B4B41F00F06B90 /* CoreDataStack.swift in Sources */,
+				94D78E0D23B4E54600F06B90 /* User+CoreDataProperties.swift in Sources */,
+				94C4B96D23B90ADB0086F61D /* ProfileViewController.swift in Sources */,
+				94D78E0C23B4E54600F06B90 /* User+CoreDataClass.swift in Sources */,
+				94780C9323C63B9900232FC0 /* BillsTypeCellItem.swift in Sources */,
+				94D78DE423B4A34300F06B90 /* UserManaging.swift in Sources */,
+				94C8040A23ABB9420002D407 /* HomeViewController.swift in Sources */,
+				94C803C323AB5FE50002D407 /* SceneDelegate.swift in Sources */,
+				94C8041023ABBFA20002D407 /* StringsCollection.swift in Sources */,
+				94C8041923AFFAA20002D407 /* BillsTypeViewController.swift in Sources */,
+				94C803CB23AB5FE50002D407 /* HeTeC.xcdatamodeld in Sources */,
+				94780C9623C6663100232FC0 /* ChooseABillViewController.swift in Sources */,
+				94C8041723AFFA870002D407 /* NewBillViewController.swift in Sources */,
+				94C4B99823BE872B0086F61D /* HouseSettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		94C803C623AB5FE50002D407 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94C803C723AB5FE50002D407 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94C803CE23AB5FE70002D407 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94C803CF23AB5FE70002D407 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94C803D223AB5FE70002D407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		94C803D323AB5FE70002D407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94C803D523AB5FE70002D407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HeTeC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "App-Six.HeTeC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94C803D623AB5FE70002D407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HeTeC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "App-Six.HeTeC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94C803B823AB5FE50002D407 /* Build configuration list for PBXProject "HeTeC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94C803D223AB5FE70002D407 /* Debug */,
+				94C803D323AB5FE70002D407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94C803D423AB5FE70002D407 /* Build configuration list for PBXNativeTarget "HeTeC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94C803D523AB5FE70002D407 /* Debug */,
+				94C803D623AB5FE70002D407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		94C803C923AB5FE50002D407 /* HeTeC.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				94C803CA23AB5FE50002D407 /* HeTeC.xcdatamodel */,
+			);
+			currentVersion = 94C803CA23AB5FE50002D407 /* HeTeC.xcdatamodel */;
+			path = HeTeC.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 94C803B523AB5FE50002D407 /* Project object */;
+}
